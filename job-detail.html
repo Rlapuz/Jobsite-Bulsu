@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jobsite-Bulsu</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+       
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <img src="./img/logo.png" alt="logo" style="display: flex; height: 200px; width: 200px;">
+            </a>
+            <button type="button" class="navbar-toggler me-4" onclick="toggleNavbar()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown" onclick="toggleDropdown('jobDropdown')">
+                        <a href="#" class="nav-link dropdown-toggle active">Jobs</a>
+                        <div id="jobDropdown" class="dropdown-menu rounded-0 m-0">
+                            <a href="job-list.html" class="dropdown-item">Job List</a>
+                            <a href="job-detail.html" class="dropdown-item active">Job Detail</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown" onclick="toggleDropdown('pageDropdown')">
+                        <a href="#" class="nav-link dropdown-toggle">Pages</a>
+                        <div id="pageDropdown" class="dropdown-menu rounded-0 m-0">
+                            <a href="category.html" class="dropdown-item">Job Category</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Login<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+<!-- Navbar End -->
+
+<div class="content">
+        <!-- Header End -->
+        <div class="container-xxl py-5 bg-dark page-header mb-5">
+            <div class="container my-5 pt-5 pb-4">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Job Detail</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb text-uppercase">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Job Detail</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Job Detail Start -->
+        <div class="container-xxl py-5 " >
+            <div class="container">
+                <div class="row gy-5 gx-4">
+                    <div class="col-lg-8">
+                        <div class="d-flex align-items-center mb-5">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-2.jpg" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h3 class="mb-3">Software Engineer</h3>
+                                <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>BSU Meneses</span>
+                                <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Full Time</span>
+                                <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>&#8369; 30,000 - &#8369; 50,000</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-5">
+                            <h4 class="mb-3">Job description</h4>
+                            <p>The Software Engineer at Jobsite-Bulsu is responsible for designing, developing, and maintaining high-quality software solutions. This role involves collaborating with cross-functional teams to analyze requirements, propose technical solutions, and implement scalable software applications. The Software Engineer will utilize their expertise in programming languages, algorithms, and data structures to create efficient and reliable software systems. They will also conduct thorough testing, debugging, and documentation to ensure the stability and functionality of the developed software. Additionally, the Software Engineer will stay updated with the latest industry trends and technologies to continually enhance the company's software development processes. Strong problem-solving skills, attention to detail, and effective communication are essential in this role to deliver outstanding software solutions that meet the needs of our users.</p>
+                            <h4 class="mb-3">Responsibility</h4>
+                            <p>Collaborate, design, develop, test, and maintain software applications while staying updated with industry trends and proposing technical solutions.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Analyze requirements and propose technical solutions.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Design, develop, and maintain software applications.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Implement scalable and efficient software systems.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Conduct testing, debugging, and documentation.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Stay updated with industry trends and technologies.</li>
+                            </ul>
+                            <h4 class="mb-3">Qualifications</h4>
+                            <p>Bachelor's degree in Computer Science, proficiency in Java, C++, or Python, strong understanding of data structures, software development experience, and problem-solving skills.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Bachelor's degree in Computer Science or a related field.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Proficiency in programming languages such as Java, C++, or Python.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Strong understanding of data structures, algorithms, and software design principles.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Experience with software development methodologies and tools.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Excellent problem-solving skills and ability to work effectively in a team environment.</li>
+                            </ul>
+                        </div>
+        
+                        <div class="">
+                            <h4 class="mb-4">Apply For The Job</h4>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control" placeholder="Your Name">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="email" class="form-control" placeholder="Your Email">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control" placeholder="Portfolio Website">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="file" class="form-control bg-white">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control" rows="5" placeholder="Coverletter"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100" type="submit">Apply Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4">
+                        <div class="bg-light rounded p-5 mb-4 wow slideInUp" >
+                            <h4 class="mb-4">Job Summery</h4>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Published On: 01 Jan, 2045</p>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Vacancy: 123 Position</p>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Job Nature: Full Time</p>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Salary: &#8369; 30,000 - &#8369; 50,000</p>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Location: New York, USA</p>
+                            <p class="m-0"><i class="fa fa-angle-right text-primary me-2"></i>Date Line: 01 Jan, 2045</p>
+                        </div>
+                        <div class="bg-light rounded p-5 wow slideInUp" >
+                            <h4 class="mb-4">Company Detail</h4>
+                            <p class="m-0">Ipsum dolor ipsum accusam stet et et diam dolores, sed rebum sadipscing elitr vero dolores. Lorem dolore elitr justo et no gubergren sadipscing, ipsum et takimata aliquyam et rebum est ipsum lorem diam. Et lorem magna eirmod est et et sanctus et, kasd clita labore.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Job Detail End -->
+</div>
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 " >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Company</h5>
+                        <a class="btn btn-link text-white-50" href="">About Us</a>
+                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="">Our Services</a>
+                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link text-white-50" href="">About Us</a>
+                        <a class="btn btn-link text-white-50" href="">Contact Us</a>
+                        <a class="btn btn-link text-white-50" href="">Our Services</a>
+                        <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                        <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Contact</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>BSU Meneses</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>09123456789</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>bsumeneses@campus.edu.ph</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/BulSUMC"><i class="fab fa-facebook-f"></i></a>                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p>Email Us!</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Jobsite-Bulsu</a>, All Right Reserved 2023. 
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							Designed By <a class="border-bottom" href="">CHOLO</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FQAs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+            <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" onclick="scrollToTop()" id="backToTopBtn"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="js/backtoTop.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
